@@ -1,0 +1,15 @@
+Questão 1 
+
+A) resultado(joao, X) → X = 8
+
+B) falta(X, Y), Y > 0 → (X, Y) = (joao, 2), (pedro, 5), (jose, 1)
+
+C) reprovado(jose) → false
+
+Questão 2
+
+aprovado(X) :-
+    resultado(X, Nota),
+    falta(X, F),
+    Nota > 6,
+    F < 2.
